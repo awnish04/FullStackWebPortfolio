@@ -58,7 +58,7 @@ const app = express();
 const allowedOrigins = [
   "http://localhost:3000", // frontend local
   "http://localhost:3001", // alternate dev port
-  "https://web-portfolio-i7zdsqnwt-awnish04s-projects.vercel.app", // deployed frontend
+  "https://welcome-to-awnish-mehta-web-portfol.vercel.app", // deployed frontend
   "https://admin-dashboard-awnish-mehta-web-portfolio-9y7cw2kb3.vercel.app", // deployed admin dashboard
 ];
 
