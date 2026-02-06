@@ -1,0 +1,42 @@
+{
+  "node": {
+    "7f77588ece74633bfafa7f74479ec3e90411a2cfcb": {
+      "workers": {
+        "app/dashboard/about/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fawnishmehta%2FDesktop%2FFullStackPoftfolio%2FPortfolioDashboardMain%2Fadmin-dashboard%2Flib%2Factions%2Fauth.ts%22%2C%5B%7B%22id%22%3A%227f77588ece74633bfafa7f74479ec3e90411a2cfcb%22%2C%22exportedName%22%3A%22logout%22%2C%22filename%22%3A%22lib%2Factions%2Fauth.ts%22%7D%2C%7B%22id%22%3A%227fe984f0fef803298235916e3fd6bacc64cd893381%22%2C%22exportedName%22%3A%22login%22%2C%22filename%22%3A%22lib%2Factions%2Fauth.ts%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/dashboard/skills/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fawnishmehta%2FDesktop%2FFullStackPoftfolio%2FPortfolioDashboardMain%2Fadmin-dashboard%2Flib%2Factions%2Fauth.ts%22%2C%5B%7B%22id%22%3A%227f77588ece74633bfafa7f74479ec3e90411a2cfcb%22%2C%22exportedName%22%3A%22logout%22%2C%22filename%22%3A%22lib%2Factions%2Fauth.ts%22%7D%2C%7B%22id%22%3A%227fe984f0fef803298235916e3fd6bacc64cd893381%22%2C%22exportedName%22%3A%22login%22%2C%22filename%22%3A%22lib%2Factions%2Fauth.ts%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/dashboard/about/page": "action-browser",
+        "app/dashboard/skills/page": "action-browser"
+      },
+      "filename": "lib/actions/auth.ts",
+      "exportedName": "logout"
+    },
+    "7fe984f0fef803298235916e3fd6bacc64cd893381": {
+      "workers": {
+        "app/dashboard/about/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fawnishmehta%2FDesktop%2FFullStackPoftfolio%2FPortfolioDashboardMain%2Fadmin-dashboard%2Flib%2Factions%2Fauth.ts%22%2C%5B%7B%22id%22%3A%227f77588ece74633bfafa7f74479ec3e90411a2cfcb%22%2C%22exportedName%22%3A%22logout%22%2C%22filename%22%3A%22lib%2Factions%2Fauth.ts%22%7D%2C%7B%22id%22%3A%227fe984f0fef803298235916e3fd6bacc64cd893381%22%2C%22exportedName%22%3A%22login%22%2C%22filename%22%3A%22lib%2Factions%2Fauth.ts%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/dashboard/skills/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fawnishmehta%2FDesktop%2FFullStackPoftfolio%2FPortfolioDashboardMain%2Fadmin-dashboard%2Flib%2Factions%2Fauth.ts%22%2C%5B%7B%22id%22%3A%227f77588ece74633bfafa7f74479ec3e90411a2cfcb%22%2C%22exportedName%22%3A%22logout%22%2C%22filename%22%3A%22lib%2Factions%2Fauth.ts%22%7D%2C%7B%22id%22%3A%227fe984f0fef803298235916e3fd6bacc64cd893381%22%2C%22exportedName%22%3A%22login%22%2C%22filename%22%3A%22lib%2Factions%2Fauth.ts%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/dashboard/about/page": "action-browser",
+        "app/dashboard/skills/page": "action-browser"
+      },
+      "filename": "lib/actions/auth.ts",
+      "exportedName": "login"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "BLbpW8eV0r9BB/UpsumT5F6s0nJ8efqN1tRDRdb+63o="
+}
