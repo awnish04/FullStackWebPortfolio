@@ -13,7 +13,7 @@ const allowedOrigins = [
   "http://localhost:3000", // frontend local
   "http://localhost:3001", // alternate dev port
   "https://welcome-to-awnish-mehta-web-portfol.vercel.app", // deployed frontend
-  "https://admin-dashboard-awnish-mehta-web-git-c92fa2-awnish04s-projects.vercel.app", // deployed admin dashboard
+  "https://admin-dashboard-awnish-mehta-web-po.vercel.app", // deployed admin dashboard
 ];
 
 const corsOptions = {
