@@ -59,7 +59,7 @@ const allowedOrigins = [
   "http://localhost:3000", // frontend local
   "http://localhost:3001", // alternate dev port
   "https://web-portfolio-i7zdsqnwt-awnish04s-projects.vercel.app", // deployed frontend
-  "https://portfolio-dashboard-main-quyr4ujfb-awnish04s-projects.vercel.app", // deployed admin dashboard
+  "https://admin-dashboard-awnish-mehta-web-portfolio-9y7cw2kb3.vercel.app", // deployed admin dashboard
 ];
 
 const corsOptions = {
