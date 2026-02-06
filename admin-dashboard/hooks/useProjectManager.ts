@@ -11,12 +11,10 @@ import {
   updateProject,
 } from "@/lib/graphql-client";
 
-
-
-export function useProjectManager(itemsPerPage = 5)  {
+export function useProjectManager(itemsPerPage = 3) {
   const [entries, setEntries] = useState<ProjectEntry[]>([]);
   const [editingEntry, setEditingEntry] = useState<ProjectEntry | undefined>(
-    undefined
+    undefined,
   );
   // const [editingEntry, setEditingEntry] = useState<ProjectEntry | null>(null);
 
@@ -26,7 +24,7 @@ export function useProjectManager(itemsPerPage = 5)  {
 
   const filteredEntries = useMemo(() => {
     return entries.filter((entry) =>
-      entry.title.toLowerCase().includes(searchTerm.toLowerCase())
+      entry.title.toLowerCase().includes(searchTerm.toLowerCase()),
     );
   }, [entries, searchTerm]);
 
@@ -56,7 +54,7 @@ export function useProjectManager(itemsPerPage = 5)  {
       if (entry.id) {
         const updated = await updateProject(entry.id, entry);
         setEntries((prev) =>
-          prev.map((e) => (e.id === entry.id ? updated : e))
+          prev.map((e) => (e.id === entry.id ? updated : e)),
         );
       } else {
         const created = await createProject(entry);
