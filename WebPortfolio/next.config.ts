@@ -1,14 +1,25 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
   reactCompiler: true,
   images: {
-    domains: [
-      "ap-south-1.graphassets.com",
-      "media.graphassets.com",
-      "res.cloudinary.com",
-      "your-api-domain.com",
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "ap-south-1.graphassets.com",
+      },
+      {
+        protocol: "https",
+        hostname: "media.graphassets.com",
+      },
+      {
+        protocol: "https",
+        hostname: "res.cloudinary.com",
+      },
+      {
+        protocol: "https",
+        hostname: "your-api-domain.com",
+      },
     ],
   },
 };
